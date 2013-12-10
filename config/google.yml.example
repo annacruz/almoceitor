@@ -1,0 +1,11 @@
+development:
+  GOOGLE_KEY: 12345
+  GOOGLE_SECRET: abcdef
+
+test:
+  GOOGLE_KEY: 12345
+  GOOGLE_SECRET: abcdef
+
+production:
+  GOOGLE_KEY: 23456
+  GOOGLE_SECRET: bcdefg

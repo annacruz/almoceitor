@@ -1,0 +1,28 @@
+common: &common
+  adapter:  postgresql
+  encoding: utf8
+
+local: &local
+  username: postgres
+
+development:
+  <<: *common
+  <<: *local
+  database: almoceitor_development
+
+test:
+  <<: *common
+  <<: *local
+  database: almoceitor_test
+
+staging:
+  <<: *common
+  <<: *local
+  database: almoceitor_staging
+
+production:
+  <<: *common
+  database: almoceitor
+  username: almoceitor
+  password:
+  host:
