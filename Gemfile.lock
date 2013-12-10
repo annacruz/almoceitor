@@ -27,6 +27,7 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.1)
     atomic (1.1.14)
+    awesome_print (1.2.0)
     builder (3.1.4)
     capistrano (3.0.1)
       i18n
@@ -244,6 +245,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   capistrano
   capybara
   jasmine

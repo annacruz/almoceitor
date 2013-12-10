@@ -12,16 +12,17 @@ gem 'pony'
 gem 'omniauth-google-oauth2'
 
 group :development do
- gem 'unicorn'
- gem 'capistrano'
- gem 'pry'
- gem 'pry-rails'
- gem 'pry-debugger'
- gem 'mailcatcher'
+  gem 'unicorn'
+  gem 'capistrano'
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-debugger'
+  gem 'awesome_print'
+  gem 'mailcatcher'
 end
 
 group :test do
- gem 'rspec-rails'
- gem 'capybara'
- gem 'jasmine'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'jasmine'
 end
