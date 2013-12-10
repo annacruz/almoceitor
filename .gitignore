@@ -9,3 +9,4 @@
 .sass-cache/
 
 /config/database.yml
+/config/google.yml

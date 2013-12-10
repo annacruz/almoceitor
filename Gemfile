@@ -9,6 +9,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'rails-backbone'
 gem 'pony'
+gem 'omniauth-google-oauth2'
 
 group :development do
  gem 'unicorn'
